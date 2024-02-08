@@ -20,9 +20,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2057506985444
-  numberOfFiles: 192
-  numberOfSubjects: 3
+  numberOfBytes: 2072793141706
+  numberOfFiles: 245
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -43,7 +43,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
-datePublished: '2024-02-08T19:55:52.493103+00:00'
+datePublished: '2024-02-08T21:01:38.414798+00:00'
 description: Lorem Ipsum
 doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000617/draft
@@ -54,13 +54,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
 name: Allen Institute Openscope - Sequence Learning Project
 publishedBy:
-  endDate: '2024-02-08T19:55:52.493103+00:00'
-  id: urn:uuid:36cc922f-ed8b-4083-9981-6bcc06bc79e7
+  endDate: '2024-02-08T21:01:38.414798+00:00'
+  id: urn:uuid:1491ed2d-70d9-4fca-a15f-099c999eec67
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-08T19:55:52.493103+00:00'
+  startDate: '2024-02-08T21:01:38.414798+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:c3feec3a-5cf5-48ca-86d5-d40c96bc3cf4
+  - id: urn:uuid:cba04d1e-25ed-440f-a7fa-7405d86488fd
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
