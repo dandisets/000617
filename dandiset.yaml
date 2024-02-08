@@ -20,9 +20,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2047499903301
-  numberOfFiles: 143
-  numberOfSubjects: 2
+  numberOfBytes: 2057506985444
+  numberOfFiles: 192
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -34,7 +34,7 @@ assetsSummary:
   - OpticalChannel
   - TwoPhotonSeries
   - PlaneSegmentation
-citation: Allen Institute Openscope - Sequence Learning Project (2023). (Version draft)
+citation: Allen Institute Openscope - Sequence Learning Project (2024). (Version draft)
   [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 U24 NS 113646-02
@@ -43,7 +43,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
-datePublished: '2023-08-21T19:39:39.975929+00:00'
+datePublished: '2024-02-08T19:55:52.493103+00:00'
 description: Lorem Ipsum
 doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000617/draft
@@ -54,13 +54,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
 name: Allen Institute Openscope - Sequence Learning Project
 publishedBy:
-  endDate: '2023-08-21T19:39:39.975929+00:00'
-  id: urn:uuid:e4a91321-447b-4f55-b264-0ca621f5eb47
+  endDate: '2024-02-08T19:55:52.493103+00:00'
+  id: urn:uuid:36cc922f-ed8b-4083-9981-6bcc06bc79e7
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-08-21T19:39:39.975929+00:00'
+  startDate: '2024-02-08T19:55:52.493103+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:4fdf6bd8-a4fb-40c7-8fcf-a8ee0d1572ca
+  - id: urn:uuid:c3feec3a-5cf5-48ca-86d5-d40c96bc3cf4
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
