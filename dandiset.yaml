@@ -14,14 +14,14 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 11617120566383
-  numberOfFiles: 1472
+  numberOfBytes: 11634053892757
+  numberOfFiles: 1466
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -29,11 +29,11 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ImagingPlane
   - ProcessingModule
   - OpticalChannel
-  - TwoPhotonSeries
   - PlaneSegmentation
+  - ImagingPlane
+  - TwoPhotonSeries
 citation: Allen Institute Openscope - Sequence Learning Project (2024). (Version draft)
   [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
