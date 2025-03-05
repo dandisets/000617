@@ -3,9 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
+acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
+  encouragement, and support.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -35,39 +38,90 @@ assetsSummary:
   - OpticalChannel
   - ProcessingModule
   - TwoPhotonSeries
-citation: Allen Institute Openscope - Sequence Learning Project (2024). (Version draft)
-  [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Allen Institute Openscope - Sequence Learning Project (2025). (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- identifier: https://ror.org/03cpe7c52
+  includeInCitation: false
+  name: Allen Institute
+  roleName:
+  - dcite:Producer
+  - dcite:Funder
+  - dcite:Affiliation
+  schemaKey: Organization
+  url: https://alleninstitute.org/
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
-datePublished: '2024-02-14T07:08:08.716075+00:00'
-description: Lorem Ipsum
-doi: 10.80507/dandi.123456/0.123456.1234
+description: "Adaptive and coordinated behavior requires that an animal be able to
+  make predictions about the near and even far future. This intuition that some neural
+  computations should be ‘predictive’ in their character has a long history, starting
+  with ideas about how the receptive field structure of retinal ganglion cells relate
+  to the statistics of natural visual scenes. Ideas about predictive computation have
+  been most influential in thinking about the function of the neocortex. Here, the
+  relatively stereotyped local circuitry of the neocortex has long led to speculation
+  that each local circuit might be carrying out a somewhat similar, fundamental computation
+  on its specific inputs. In addition, the organization of sensory-motor pathways
+  into hierarchies (e.g., V1, V2, V4, IT in the ventral visual stream) with stereotyped
+  feedforward and feedback connections has motivated ideas about hierarchical predictive
+  codes, where higher levels of the hierarchy send predictions down to the lower level
+  that then compares its inputs against the predictions and only send the surprises
+  up the hierarchy (such as in the work of Mumford, Rao & Ballard, and Friston). Despite
+  the wide influence of ideas about predictive coding, there is relatively little
+  experimental evidence that such computations occur in multiple cortical areas, perhaps
+  serving as a ‘canonical computation’ of the neocortical microcircuit. Our experimental
+  design is based on a Sequence Learning Experiment, in which head-fixed mice passively
+  view sequences of three different natural movie clips (labeled ‘A’, ‘B’, ‘C’), each
+  having a duration of 2 seconds. We begin with one recording session (day #0), where
+  the movie clips are presented in random order along with a 2 second grey screen
+  (labeled ‘X’). Each stimulus occurs a total of 525 times, allowing a thorough characterization
+  of neural responses before any sequence learning has occurred. Next, there are 3
+  recording sessions where the three movie clips are presented in a repeating temporal
+  sequence, ABCABC…, for 500 times, in order to train the mouse’s brain. This training
+  allows the mouse to potentially use the identity of the current movie clip predict
+  the next movie clip. In addition, each sequence training session includes a period
+  of random-order presentation, in order to assess changes in neural tuning during
+  sequence learning. Finally, our last session (day #4) had stimuli presented in random
+  order, allowing us to test more thoroughly how responses changed due to sequence
+  learning.\n\nOur design uses 2-photon microscopy with eight simultaneously recorded
+  fields-of-view. The fields-of-view will include both layer 2/3 and layer 4 as well
+  as from multiple cortical areas: V1 (VISp), LM (VISl), AM (VISam), and PM (VISpm).
+  The experiment used the Cux2-CreERTS2:Camk2a-tTa; Ai93(TITL-GCaMP6f) mouse line,
+  which has expression in excitatory neurons of both layer 4 and 2/3."
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 2117
+  schemaKey: EthicsApproval
 id: DANDI:000617/draft
 identifier: DANDI:000617
+keywords:
+- L2/3
+- L4
+- two-photon calcium imaging
+- prediction
+- pyramidal neurons
+- somata
+- neocortex
+- predictive coding
+- predictive processing
+- sequence learning
+- movies
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
 name: Allen Institute Openscope - Sequence Learning Project
-publishedBy:
-  endDate: '2024-02-14T07:08:08.716075+00:00'
-  id: urn:uuid:9f30e1cf-40fa-43ea-af2b-78ade5cec198
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-02-14T07:08:08.716075+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:ddd697b3-5a5b-4b97-9c53-a7f5b0a5153f
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000617/draft
 version: draft
+wasGeneratedBy: []
