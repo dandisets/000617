@@ -24,19 +24,19 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1380683562514
-  numberOfFiles: 136
-  numberOfSubjects: 5
+  numberOfBytes: 1363771937806
+  numberOfFiles: 86
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ImagingPlane
   - PlaneSegmentation
-  - OpticalChannel
   - ProcessingModule
+  - ImagingPlane
+  - OpticalChannel
   - TwoPhotonSeries
 citation: Allen Institute Openscope - Sequence Learning Project (2025). (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
