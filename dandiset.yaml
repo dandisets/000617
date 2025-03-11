@@ -24,9 +24,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1357467080285
-  numberOfFiles: 64
-  numberOfSubjects: 2
+  numberOfBytes: 13197788224949
+  numberOfFiles: 1197
+  numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -40,8 +40,8 @@ assetsSummary:
   - TwoPhotonSeries
 citation: Berry, Michael; Lecoq, Jérôme; Amaya, Avalon; Wilkes, Josh; Nguyen, Katrina;
   Naidoo, Robyn; Johnson, Tye; Han, Warren Han; Williford, Ali; Swapp, Jackie (2025)
-  Allen Institute Openscope - Sequence Learning Project (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
+  Allen Institute Openscope - Sequence Learning Project (Version 0.250311.1615) [Data
+  set]. DANDI Archive. https://doi.org/10.48324/dandi.000617/0.250311.1615
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
@@ -167,13 +167,14 @@ description: "Adaptive and coordinated behavior requires that an animal be able 
   as from multiple cortical areas: V1 (VISp), LM (VISl), AM (VISam), and PM (VISpm).
   The experiment used the Cux2-CreERTS2:Camk2a-tTa; Ai93(TITL-GCaMP6f) mouse line,
   which has expression in excitatory neurons of both layer 4 and 2/3."
+doi: 10.48324/dandi.000617/0.250311.1615
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:000617/draft
+id: DANDI:000617/0.250311.1615
 identifier: DANDI:000617
 keywords:
 - L2/3
@@ -190,7 +191,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000617/0.250311.1615/assets.yaml
 name: Allen Institute Openscope - Sequence Learning Project
 protocol: []
 publishedBy:
@@ -210,6 +211,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000617/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000617/0.250311.1615
+version: 0.250311.1615
 wasGeneratedBy: []
