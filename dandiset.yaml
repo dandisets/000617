@@ -6,7 +6,7 @@
 about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
   encouragement, and support.
 assetsSummary:
@@ -38,8 +38,10 @@ assetsSummary:
   - ProcessingModule
   - ImagingPlane
   - TwoPhotonSeries
-citation: Allen Institute Openscope - Sequence Learning Project (2025). (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
+citation: Berry, Michael; Lecoq, Jérôme; Amaya, Avalon; Wilkes, Josh; Nguyen, Katrina;
+  Naidoo, Robyn; Johnson, Tye; Han, Warren Han; Williford, Ali; Swapp, Jackie (2025)
+  Allen Institute Openscope - Sequence Learning Project (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
@@ -55,7 +57,81 @@ contributor:
   - dcite:Affiliation
   schemaKey: Organization
   url: https://alleninstitute.org/
+- email: berry@princeton.edu
+  identifier: 0000-0003-4133-7999
+  includeInCitation: true
+  name: Berry, Michael
+  roleName:
+  - dcite:ContactPerson
+  - dcite:Conceptualization
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:ProjectLeader
+  schemaKey: Person
+- email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
+  includeInCitation: true
+  name: Lecoq, Jérôme
+  roleName:
+  - dcite:ContactPerson
+  - dcite:DataManager
+  - dcite:FundingAcquisition
+  - dcite:Maintainer
+  - dcite:ProjectManager
+  - dcite:ProjectAdministration
+  - dcite:Software
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0003-2274-2892
+  includeInCitation: true
+  name: Amaya, Avalon
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0005-4858-2219
+  includeInCitation: true
+  name: Wilkes, Josh
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0009-8547-9703
+  includeInCitation: true
+  name: Nguyen, Katrina
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0004-0996-8808
+  includeInCitation: true
+  name: Naidoo, Robyn
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: Johnson, Tye
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0006-0104-0380
+  includeInCitation: true
+  name: Han, Warren Han
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Ali
+  roleName:
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:Supervision
+  schemaKey: Person
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
+datePublished: '2025-03-11T16:15:16.112223+00:00'
 description: "Adaptive and coordinated behavior requires that an animal be able to
   make predictions about the near and even far future. This intuition that some neural
   computations should be ‘predictive’ in their character has a long history, starting
@@ -117,6 +193,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
 name: Allen Institute Openscope - Sequence Learning Project
 protocol: []
+publishedBy:
+  endDate: '2025-03-11T16:15:16.112223+00:00'
+  id: urn:uuid:d9375de5-739f-4da0-bfbf-176fc6695b08
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-03-11T16:15:16.112223+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:57b72d14-f227-4486-bbd6-9c2ae3663b85
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
