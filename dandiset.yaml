@@ -24,9 +24,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1357467080285
-  numberOfFiles: 64
-  numberOfSubjects: 2
+  numberOfBytes: 13197788224949
+  numberOfFiles: 1197
+  numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -39,9 +39,10 @@ assetsSummary:
   - ImagingPlane
   - TwoPhotonSeries
 citation: Berry, Michael; Lecoq, Jérôme; Amaya, Avalon; Wilkes, Josh; Nguyen, Katrina;
-  Naidoo, Robyn; Johnson, Tye; Han, Warren Han; Williford, Ali; Swapp, Jackie (2025)
-  Allen Institute Openscope - Sequence Learning Project (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
+  Peene, Carter; Bawany, Ahad; Han, Warren Han; Seid,  Samuel; Young, Ahrial; Naidoo,
+  Robyn; Ha, Vivian; Johnson, Tye; Williford, Ali; Swapp, Jackie; Caldejon, Shiella
+  (2025) Allen Institute Openscope - Sequence Learning Project (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
@@ -100,21 +101,57 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
+- identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, Carter
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Software
+  schemaKey: Person
+- identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Software
+  schemaKey: Person
+- identifier: 0009-0006-0104-0380
+  includeInCitation: true
+  name: Han, Warren Han
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0000-0002-5403-7816
+  includeInCitation: true
+  name: Seid,  Samuel
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- includeInCitation: true
+  name: Young, Ahrial
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
 - identifier: 0009-0004-0996-8808
   includeInCitation: true
   name: Naidoo, Robyn
   roleName:
   - dcite:DataCollector
   schemaKey: Person
+- identifier: 0009-0005-0093-3825
+  includeInCitation: true
+  name: Ha, Vivian
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
 - identifier: 0009-0006-7239-7571
   includeInCitation: true
   name: Johnson, Tye
-  roleName:
-  - dcite:DataCollector
-  schemaKey: Person
-- identifier: 0009-0006-0104-0380
-  includeInCitation: true
-  name: Han, Warren Han
   roleName:
   - dcite:DataCollector
   schemaKey: Person
@@ -130,8 +167,15 @@ contributor:
   roleName:
   - dcite:Supervision
   schemaKey: Person
+- includeInCitation: true
+  name: Caldejon, Shiella
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Supervision
+  schemaKey: Person
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
-datePublished: '2025-03-11T16:15:16.112223+00:00'
 description: "Adaptive and coordinated behavior requires that an animal be able to
   make predictions about the near and even far future. This intuition that some neural
   computations should be ‘predictive’ in their character has a long history, starting
@@ -193,18 +237,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
 name: Allen Institute Openscope - Sequence Learning Project
 protocol: []
-publishedBy:
-  endDate: '2025-03-11T16:15:16.112223+00:00'
-  id: urn:uuid:d9375de5-739f-4da0-bfbf-176fc6695b08
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2025-03-11T16:15:16.112223+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:57b72d14-f227-4486-bbd6-9c2ae3663b85
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
