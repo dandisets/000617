@@ -176,6 +176,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
+datePublished: '2025-03-12T01:30:40.025190+00:00'
 description: "Adaptive and coordinated behavior requires that an animal be able to
   make predictions about the near and even far future. This intuition that some neural
   computations should be ‘predictive’ in their character has a long history, starting
@@ -237,6 +238,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
 name: Allen Institute Openscope - Sequence Learning Project
 protocol: []
+publishedBy:
+  endDate: '2025-03-12T01:30:40.025190+00:00'
+  id: urn:uuid:c661ecb4-5e78-479e-9f63-e2ab5d6040e2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-03-12T01:30:40.025190+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b7b71906-2791-4624-b429-aa5c1877f3b8
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
