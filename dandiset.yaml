@@ -41,8 +41,8 @@ assetsSummary:
 citation: Berry, Michael; Lecoq, Jérôme; Amaya, Avalon; Wilkes, Josh; Nguyen, Katrina;
   Peene, Carter; Bawany, Ahad; Han, Warren Han; Seid,  Samuel; Young, Ahrial; Naidoo,
   Robyn; Ha, Vivian; Johnson, Tye; Williford, Ali; Swapp, Jackie; Caldejon, Shiella
-  (2025) Allen Institute Openscope - Sequence Learning Project (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/000617/draft
+  (2025) Allen Institute Openscope - Sequence Learning Project (Version 0.250312.0130)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000617/0.250312.0130
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
@@ -176,6 +176,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2023-07-28T21:00:57.366907+00:00'
+datePublished: '2025-03-12T01:30:40.025190+00:00'
 description: "Adaptive and coordinated behavior requires that an animal be able to
   make predictions about the near and even far future. This intuition that some neural
   computations should be ‘predictive’ in their character has a long history, starting
@@ -211,13 +212,14 @@ description: "Adaptive and coordinated behavior requires that an animal be able 
   as from multiple cortical areas: V1 (VISp), LM (VISl), AM (VISam), and PM (VISpm).
   The experiment used the Cux2-CreERTS2:Camk2a-tTa; Ai93(TITL-GCaMP6f) mouse line,
   which has expression in excitatory neurons of both layer 4 and 2/3."
+doi: 10.48324/dandi.000617/0.250312.0130
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:000617/draft
+id: DANDI:000617/0.250312.0130
 identifier: DANDI:000617
 keywords:
 - L2/3
@@ -234,14 +236,26 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000617/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000617/0.250312.0130/assets.yaml
 name: Allen Institute Openscope - Sequence Learning Project
 protocol: []
+publishedBy:
+  endDate: '2025-03-12T01:30:40.025190+00:00'
+  id: urn:uuid:c661ecb4-5e78-479e-9f63-e2ab5d6040e2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-03-12T01:30:40.025190+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b7b71906-2791-4624-b429-aa5c1877f3b8
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000617/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000617/0.250312.0130
+version: 0.250312.0130
 wasGeneratedBy: []
